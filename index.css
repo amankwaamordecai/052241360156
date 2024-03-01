@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer {
+    background-color: #16151a;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+header, nav, footer a {
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#content {
+     position: left;
+     margin-top: 0%;
+     margin-right: 10%;
+     margin-left: 10%;
+     background-attachment: fixed;
+     background-color: aliceblue;
+     font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+.hero {
+    background-image:url("download.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+
+
+.btn:hover {
+    background-color: #555;
+}
+.column {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+/* department page */
+.dphero {
+    background-image:url("download\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dphero-content {
+    text-align: center;
+    color: white;
+}
+
+.dphero-content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.dphero-content p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+/* time Table page */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #8b6262;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #100303;
+}
+
+ a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+a:hover {
+        text-decoration: underline;}
